@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Rock Paper Scissors Game</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <p class="title">Rock Paper Scissors</p>
+    <p>Choose move by clicking image or button below</p>
+    <div class="main-moves-div">
+      <div class="inner-moves-div">
+        <button class="move-img-btn rock-btn">
+          <img class="move-img" src="rock.png" />
+        </button>
+        <button class="move-text-btn rock-btn">Rock</button>
+      </div>
+      <div class="inner-moves-div">
+        <button class="move-img-btn paper-btn">
+          <img class="move-img" src="paper.png" />
+        </button>
+        <button class="move-text-btn paper-btn">Paper</button>
+      </div>
+      <div class="inner-moves-div">
+        <button class="move-img-btn scissors-btn">
+          <img class="move-img" src="scissors.png" />
+        </button>
+        <button class="move-text-btn scissors-btn">Scissors</button>
+      </div>
+    </div>
+
+    <div class="result-div">
+      <div class="display-your-moves">
+      </div>
+      <div class="display-scores display-moves">
+        <p>Let's Play !!</p>
+        <p>Attempt 0/5</p>
+        <p>Your Score: 0</p>
+        <p>Computer Score: 0</p>
+      </div>
+      <div class="display-comp-moves">
+      </div>
+    </div>
+    <button class="reset-btn">Reset Score</button>
+    <script src="script.js"></script>
+  </body>
+</html>

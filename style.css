@@ -1,0 +1,151 @@
+body{
+    color: #ffffff;
+    background-color: #001524;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    /* border: 2px solid green; */
+    margin: 0 auto 0;
+    
+}
+
+.title{
+    font-size: 2.5rem;
+}
+
+.move-img-btn{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    cursor: pointer;
+    margin: 0 10px 0;
+    /* border: 5px solid red; */
+    
+}
+.move-img-btn:hover{
+   transform: scale(105%);
+}
+
+.move-img{
+    width: 100%;
+}
+
+
+
+.move-text-btn{
+    height: 16%;
+    width: 70%;
+    font-size: 1.2rem;
+    background-color: #8bc795;
+    font-weight: 700;
+    border-radius: 3px;
+    border: 1px solid gray;
+    cursor: pointer;
+}
+
+.move-text-btn:hover{
+    background-color: #3fc656;
+}
+
+.main-moves-div{
+    /* border: 2px solid red; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 35vh;
+    width: 100vw;
+    margin: 0 auto 0;
+}
+
+.inner-moves-div{
+    /* border: 2px solid green; */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 90%;
+    
+}
+
+@media (max-width:450px){
+    .main-moves-div{
+        /* border: 2px solid red; */
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 25vh;
+        width: 100vw;
+        margin: 0 auto 0;
+    }
+    
+    .inner-moves-div{
+        /* border: 2px solid green; */
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+        height: 80%;
+    }
+
+    .move-img-btn{
+        width: 120px;
+        height: 120px;
+        border-radius: 50%;
+        cursor: pointer;
+        margin: 0 10px 0;
+        /* border: 5px solid red; */
+        
+    }
+}
+
+
+.result-div{
+    height: 25vh;
+    width: 80%;
+    margin: 0 auto;
+    /* border: 2px solid red; */
+    display: flex;
+    justify-content: space-evenly;
+    margin: 10px auto 10px;
+}
+
+
+.reset-btn{
+    height: 25px;
+    width: 100px;
+    font-size: 0.85rem;
+    background-color: #FDE5D4;
+    font-weight: 700;
+    cursor: pointer;
+    border-radius:5px;   
+}
+
+
+.display-comp-moves{
+    height: 100%;
+    width: 15%;
+    display: flex;
+    flex-direction: column;
+    /* border: 2px solid green; */
+    align-items:center;
+}
+.display-your-moves{
+    height: 100%;
+    width: 15%;
+    display: flex;
+    flex-direction: column;
+    /* border: 2px solid green; */
+    align-items:center;
+}
+
+.display-moves-img{
+    width: 60px;
+}
+.display-moves p{
+    font-weight: 700;
+    margin: 0 0 15px;
+}
+.display-scores :nth-child(1){
+    font-weight: 700;
+    font-size: 2rem;
+    margin: 0 0 10px;
+}
